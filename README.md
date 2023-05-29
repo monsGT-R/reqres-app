@@ -1,6 +1,6 @@
-# ReqresApp
+# See Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+[https://monsgt-r.github.io/reqres-app](https://monsgt-r.github.io/reqres-app)
 
 ## Development server
 
