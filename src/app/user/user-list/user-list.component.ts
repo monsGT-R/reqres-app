@@ -41,7 +41,9 @@ export class UserListComponent implements OnInit {
     this.loadUsers();
   }
 
-  deleteUser(userId: number) {
+  deleteUser(event: MouseEvent, userId: number) {
+    event.preventDefault();
+    event.stopImmediatePropagation();
     const dialogRef = this.dialog.open(this.deleteConfirmationDialog);
 
     dialogRef

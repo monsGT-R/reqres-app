@@ -3,7 +3,11 @@
     <img matListItemAvatar [src]="user.avatar" />
     <h3 matListItemTitle>{{ user.first_name }} {{ user.last_name }}</h3>
     <p matListItemLine>{{ user.email }}</p>
-    <button mat-icon-button (click)="deleteUser(user.id)" matListItemMeta>
+    <button
+      mat-icon-button
+      matListItemMeta
+      (click)="deleteUser($event, user.id)"
+    >
       <mat-icon>delete</mat-icon>
     </button>
   </a>
